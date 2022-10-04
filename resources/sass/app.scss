@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.home-cont {
+    display: flex;
+    flex-direction: column;
+}
+.pr-25 {
+    padding-right: 25px;
+}
+.bold {
+    font-weight: bold;
+}
