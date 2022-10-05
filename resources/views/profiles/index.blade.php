@@ -25,7 +25,6 @@
         @foreach($user->posts as $post)
             <div class="col-4 pb-4"><img class="w-100 h-100" src="/storage/{{ $post->image }}" alt=""></div>
         @endforeach
-        <!--<div class="col-4"><img class="w-100 h-100" src="../img/program1.jpg" alt=""></div>-->
     </div>
 
 </div>
